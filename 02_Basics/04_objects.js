@@ -68,4 +68,3 @@ const req = {
 
 // const {email,password,username}=req; // destructuring
 // console.table([email,password,username]);
-
