@@ -59,3 +59,13 @@ console.log(Object.keys(tinderUser));  //get all keys  we get values in array it
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser)); // return an array of arrays
 console.log(tinderUser.hasOwnProperty("isLoggedIn")); //return true if property exists
+
+const req = {
+    email: "j2V4t@example.com",
+    password: "123456",
+    username: "samay"
+};
+
+// const {email,password,username}=req; // destructuring
+// console.table([email,password,username]);
+
