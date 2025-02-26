@@ -37,3 +37,15 @@ const loggedInFromEmail = false;
 if(loggedInFromGoogle || loggedInFromEmail) console.log("user is logged in");
 
 
+// nullish coalescing operator (??)
+let val1;
+val1 = 5 ?? 10;
+val1 = null ?? 15;
+val1 = undefined ?? 25;
+console.log(val1);
+
+// ternary operator
+// condition ? true : false
+const age = 18;
+
+age >= 18 ? console.log("you can vote") : console.log("you can't vote");
